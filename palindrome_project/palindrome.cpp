@@ -1,6 +1,6 @@
 #include <string>
 
-// Defining the two palindrome code
+// Defining the two implementation of palindrome code
 
 bool palindrome1(std::string text)
 {
@@ -47,4 +47,5 @@ bool palindrome2(std::string text)
 			}
 			
 	return output;
+
 }
