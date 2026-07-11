@@ -2,4 +2,4 @@
 	project(power_method_project CXX)
 	set(CMAKE_CXX_STANDARD 17)
 	set(CMAKE_CXX_STANDARD_REQUIRED ON)
-	add_executable(execute,execute_palindrome.cpp,palindrome.cpp)
+	add_executable(execute execute_palindrome.cpp palindrome.cpp)
