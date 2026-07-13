@@ -22,11 +22,9 @@ int main()
 	
 	// Creating a matrix
 	std::vector<std::vector<double>> A = matrix(rows,cols);
-		
-	//Leave a space before printing results
-	std::cout << "\n\n";
 	
 	// Calling the function that prints the give A matrix
+	std::cout << "\n\nMatrix A is:\n";
 	print_matrix(A,rows,cols);
 	
 	// Initialize
