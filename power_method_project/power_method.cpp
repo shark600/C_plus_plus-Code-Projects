@@ -7,8 +7,10 @@ int main()
 {
 	//Enter the dimension of your matrix
 	int rows,cols;
-	std::cout << "\n\nEnter the size of your matrix. First the row, followed by the column:\n";
-	std::cin >> rows >> cols;
+	std::cout << "\n\nEnter the number of rows of the matrix: ";
+	std::cin >> rows;
+	std::cout << "\n\nEnter the number of columns of the matrix: ";
+	std::cin >> cols;
 	std::cout << "\n\nA "<<rows<<" by "<<cols<<" matrix will be created\n";
 	
 	// Check for square matrix
