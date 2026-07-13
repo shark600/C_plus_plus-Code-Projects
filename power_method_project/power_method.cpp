@@ -57,7 +57,7 @@ int main()
 	jj = jj+1;
 	} 
 	
-	std::cout << "\n\nThe largest eigen value of A is:\t"<<norm_vec<<"\n";
+	std::cout << "\n\nThe largest eigenvalue of A is:\t"<<norm_vec<<"\n";
 	std::cout << "\n\nThe eigenvector associated with the largest eigenvalue is:\n\n\nv =\n";
 	print_vector(v);
 	std::cout << "\n\nThe value of d is:\t"<<d<<"\n\n";
