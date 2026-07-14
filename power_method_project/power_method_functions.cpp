@@ -1,7 +1,7 @@
 #include <iostream>
 #include <random>
 
-//Creating a matrix
+//Creating a user-defined matrix
 std::vector<std::vector<double>> matrix(int rows,int cols)
 {
 std::vector<std::vector<double>> A(rows,std::vector<double>(cols,0));
