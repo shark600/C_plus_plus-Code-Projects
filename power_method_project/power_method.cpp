@@ -48,8 +48,6 @@ int main()
 	//Normalize vector v
 	v = normalize_vect(v,norm_vec,rows); 
 	
-	//print_vector(v);
-	
  	// Compute d
 	d = new_d(v,previous_v,rows);
 	if (d <= tau)
