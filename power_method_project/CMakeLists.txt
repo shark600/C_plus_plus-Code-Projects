@@ -4,4 +4,4 @@
 	set(CMAKE_CXX_STANDARD 17)
 	set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-	add_executable(power_method power_method_eig.cpp)
+	add_executable(power_method power_method.cpp power_method_functions.cpp)
